@@ -1,6 +1,6 @@
 # punk_beer_app
 
-A new Flutter project.
+A new Flutter app that displays a list of brewery history.
 
 ## Getting Started
 
