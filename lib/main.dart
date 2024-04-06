@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: Size(logicalWidth(), logicalHeight()),
+      designSize: const Size(375, 812),
       builder: (context, Widget? child) =>
           StreamProvider<InternetConnectionStatus>(
         initialData: InternetConnectionStatus.connected,
