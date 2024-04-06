@@ -18,7 +18,7 @@ The following are the app features:
  - provider: ^6.0.2  It's used to manage state in Flutter applications.
  - flutter_screenutil: ^5.7.0 It's a Flutter package that helps adapt apps to different screen sizes and resolutions. It allows one to define dimensions and positions in a screen-independent manner
  - internet_connection_checker: ^1.0.0+1 a Dart package provides a simple and easy way to check internet connectivity in a Flutter application.
- - url_launcher: ^6.1.8 It is used launch a url for Flutter applications. It provides a set of beautifully crafted icons that one can use in Flutter projects.
+ - url_launcher: ^6.1.8 It is used to redirect to the web page.
 
 A few resources to get you started if this is your first Flutter project:
 
