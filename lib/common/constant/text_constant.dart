@@ -21,4 +21,5 @@ class TextLiterals {
       'Error fetching brewery history...';
   static const String breweryHistory = 'Brewery History';
   static const String fetchHistory = 'Fetching more history';
+  static const String viewMore = 'View more';
 }

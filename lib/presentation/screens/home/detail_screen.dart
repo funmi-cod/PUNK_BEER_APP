@@ -81,8 +81,8 @@ class _DetailScreenState extends State<DetailScreen> {
                         fontSize: scaledFontSize(Sizes.dimen_12.sp, context),
                         color: AppColors.mediumGray),
                     VerticalSpacing(Sizes.dimen_10.h),
-                    TextButton(
-                      onPressed: () async {
+                    InkWell(
+                      onTap: () async {
                         debugPrint("Urlll: ${widget.data.websiteUrl}");
                         String url = widget.data.websiteUrl ?? '';
 

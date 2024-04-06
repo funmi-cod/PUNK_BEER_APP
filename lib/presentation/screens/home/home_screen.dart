@@ -149,6 +149,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                     scaledFontSize(Sizes.dimen_12.sp, context),
                                 color: AppColors.mediumGray),
                             VerticalSpacing(Sizes.dimen_10.h),
+                            Styles.medium(TextLiterals.viewMore,
+                                fontSize:
+                                    scaledFontSize(Sizes.dimen_12.sp, context),
+                                color: AppColors.primaryRed),
                           ],
                         ),
                       ),
